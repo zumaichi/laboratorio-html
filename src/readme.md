@@ -1,0 +1,1 @@
+he tenido problemas con el footer y la cabecera ala hora de encuadrar tanto con respecto a la pagina como los circulos u los iconos del footer. me gustaria saber la solucion y con respecto a el comportamiento en pamtalla empeze a hacerlo pero me agobio un poco aun entendiendo el metodo

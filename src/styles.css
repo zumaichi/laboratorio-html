@@ -1,0 +1,90 @@
+
+ @font-face {
+    font-family: "font";
+    src: url("assets/fonts/Montserrat-Bold.ttf"); format:("ttf");
+    font-weight: normal;
+    font-style: normal; 
+ }
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 16px;
+    position: sticky;
+    top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #212429;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.texnav:hover {
+    background-color: #897c90;
+}
+.iconnav:hover {
+    background-color: #897c90;
+}
+.texnav {
+text-decoration: none;
+color: black;
+}
+.item {
+    display: flex;
+    flex-direction: column;   
+}
+.item-description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: font;
+}
+.item-description:hover {
+    background-color: #897c90;
+}
+h1 {
+    font-size: 32px;   
+}
+.grid-content {
+    display: grid; 
+    grid-auto-rows: 5fr; 
+    grid-template-columns: (3, 1fr); 
+    grid-template-rows: (2, 1fr); 
+    grid-template-areas: 
+      ". . ."
+      ". . ."; 
+    align-content: space-evenly; 
+    justify-items: center; 
+    align-items: stretch; 
+}
+.body{
+    font-family: font;
+    padding: 20px;
+}
+.footer {
+    display: grid; 
+    grid-auto-rows: 5fr; 
+    grid-template-columns: (7, 1fr); 
+    justify-content: space-between;
+    grid-template-areas: 
+    ". . . . . . ."; 
+    color: #ffffff;
+    background-color: #212429;
+    font-size: 16px;  
+    font-family: font;   
+}
+.iconfoot {
+    border-radius: 100%;
+    border-collapse: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.contfoot {
+    display: flex;
+    padding: 32px;
+}
+.contfoot:hover {
+    background-color: #897c90;
+}
